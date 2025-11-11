@@ -23,6 +23,7 @@ def on_tree_select(event):
         entry_trangthai.insert(0, data[3])
 def load_data():
     """Hiển thị danh sách danh mục"""
+    "them tumlum"
     for row in tree.get_children():
         tree.delete(row)
     conn = connect_mysql()
